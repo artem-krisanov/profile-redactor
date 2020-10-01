@@ -1,0 +1,10 @@
+export { default as Background } from './components/background';
+export { default as Bell } from './components/bell';
+export { default as Mail } from './components/mail';
+export { default as Pen } from './components/pen';
+export { default as Phone } from './components/phone';
+export { default as Close } from './components/close';
+export { default as Avatar } from './components/avatar';
+export { default as InvalidName } from './components/invalidName';
+export { default as InvalidMail } from './components/invalidMail';
+export { default as InvalidPhone } from './components/invalidPhone';

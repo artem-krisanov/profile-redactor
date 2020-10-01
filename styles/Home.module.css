@@ -1,0 +1,217 @@
+.head {
+  width: 100vw;
+  position: absolute;
+}
+
+.header_1 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.header_2 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 135px;
+  left: 30px;
+}
+
+.bell {
+  position: absolute;
+  top: 2%;
+  right: 4.5%;
+}
+
+.line {
+  position: absolute;
+  width: 60px;
+  height: 0px;
+  right: 12%;
+  top: 3.5%;
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+}
+
+.avatar_in_head {
+  position: absolute;
+  top: 1%;
+  right: 9%;
+  height: 5%;
+}
+
+.name_in_head {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  background-color: #1a78c2;
+  width: 90%;
+  height: 14%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.full_name {
+  color: white;
+  font-size: 300%;
+  padding-right: 45%;
+  padding-top: 2%;
+}
+
+.avatar {
+  padding-left: 5%;
+  padding-top: 1%;
+  height: 90%;
+}
+
+.edit {
+  padding-top: 2%;
+  color: white;
+  font-size: 150%;
+  cursor: pointer;
+  padding-right: 2%;
+}
+
+.data {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  border-radius: 15px;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mail {
+  padding-left: 5%;
+  padding-top: 40px;
+  border-bottom: 1px solid gray;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.phone {
+  padding-left: 5%;
+  padding-top: 40px;
+  border-bottom: 1px solid gray;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.editor {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  border-radius: 15px;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar_edit {
+  position: relative;
+  top: 70px;
+  left: 100px;
+  width: 30%;
+}
+
+.mail_edit {
+  position: relative;
+  top: 80px;
+  left: 100px;
+  width: 30%;
+}
+
+.phone_edit {
+  position: relative;
+  top: 80px;
+  left: 100px;
+  width: 30%;
+}
+
+.input_field {
+  margin-top: 2%;
+  height: 35%;
+  width: 70%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: 1px solid rgba(49, 49, 49, 0.4);
+  font-size: 23px;
+  padding: 10px;
+}
+
+.input {
+  height: 50px;
+  border: 0px;
+  font-size: 23px;
+  width: 90%;
+  color: rgba(49, 49, 49, 0.4);
+}
+.input:focus {
+  outline: none;
+}
+
+.button {
+  position: absolute;
+  width: 312px;
+  height: 70px;
+  left: 43%;
+  bottom: 20%;
+
+  background: #01bda7;
+  border-radius: 36px;
+  color: white;
+  font-size: 20px;
+
+  outline: none;
+}
+
+.invalid_name {
+  color: red;
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.invalid_mail {
+  color: red;
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.invalid_phone {
+  color: red;
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+}
